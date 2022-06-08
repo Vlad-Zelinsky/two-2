@@ -1,0 +1,141 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #b9a7a7;
+	color: #0f141e;
+}
+a {
+color: black;
+text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active{
+	color: rgb(255, 0, 43);
+}
+a:visited{
+	color: rgb(252, 172, 252);
+}
+
+.zagolovok {
+	font-size: 45px;
+	font-weight: 700;
+	background-color: blanchedalmond;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.avatar {
+	width: 200px;
+	border-radius: 14px;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+.info {
+	display: flex;
+	margin-bottom: 20px;
+}
+@media (max-width:700px) .info {
+	text-align: center;
+	display: block;
+}
+.info-text{
+	margin-left: 40px;
+}
+.info-text h4 {
+	margin-bottom: 10px;
+}
+.info p {
+	color: #86898f;
+	margin: 0;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+}
+.container {
+	max-width: 750px;
+	margin: auto;
+	padding-top: 30px;
+}
+/* .social {
+	background: blanchedalmond;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 5px solid #662e1c;
+	margin: 20px; 
+} */
+/* .box-model > div {
+	float: left;
+	background: #af4425;
+	height: 200px;
+	border: 4px solid #c9a66b;
+	width: 25%;
+	box-sizing: border-box;
+} */
+.card{
+	padding: 20px 20px;
+	background: blanchedalmond;
+	border: 5px solid #662e1c;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+/* .card h2 {
+	margin-bottom: 15px;
+} */
+.contakt h2 {
+	text-align: center;
+}
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	padding: 15px 0 10px;
+	outline: none;
+	font-family: inherit;
+
+}
+.row2{
+	display: flex;
+	margin-bottom: 20px;
+
+}
+.row2 > .form-group{
+	width: 50%;
+	margin-right: 20px;
+}
+.btn{
+	background: #111;
+	padding: 15px 20px;
+	color: #fff;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+}
+.btn:hover {
+	opacity: 0.9;
+}
+.socialsss:hover{
+	opacity: 0.9;
+}
+/* .position {
+	position: relative;
+	border: 4px solid black;
+	margin-top: 40px;
+	padding: 20px;
+	height: 300px;
+  }
+  .box {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	border-radius: 50%;;
+	width: 50px;
+	height: 50px;
+	background: #662e1c;
+  } */
